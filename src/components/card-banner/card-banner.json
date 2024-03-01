@@ -1,0 +1,32 @@
+{
+  "collectionName": "components_card_banner_card_banners",
+  "info": {
+    "displayName": "Card Banner",
+    "icon": "discuss",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "card_bg_image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "card_name": {
+      "type": "string",
+      "required": true,
+      "unique": true
+    },
+    "card_image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

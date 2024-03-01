@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "other_benefits",
+  "info": {
+    "singularName": "other-benefit",
+    "pluralName": "other-benefits",
+    "displayName": "Other Benefits",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "benIcons": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "benTitle": {
+      "type": "string",
+      "required": false
+    },
+    "BenRewDescriptions": {
+      "type": "string"
+    },
+    "others": {
+      "type": "string"
+    }
+  }
+}

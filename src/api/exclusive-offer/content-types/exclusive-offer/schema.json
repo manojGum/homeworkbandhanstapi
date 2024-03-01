@@ -1,0 +1,36 @@
+{
+  "kind": "collectionType",
+  "collectionName": "exclusive_offers",
+  "info": {
+    "singularName": "exclusive-offer",
+    "pluralName": "exclusive-offers",
+    "displayName": "Exclusive Offers",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "brandLogo": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "offers": {
+      "type": "string",
+      "required": true
+    },
+    "offerMessage": {
+      "type": "string",
+      "required": true
+    },
+    "isAvailable": {
+      "type": "boolean",
+      "required": true
+    }
+  }
+}
